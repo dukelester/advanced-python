@@ -78,3 +78,19 @@ class. Methods can be utilized only by calling them using an object instance cre
 User-defined functions, on the other hand, are global and can be called freely anywhere within the
 program. A method can be as simple as printing a statement or can be a highly complex mathematical
 calculation that involves a large number of parameters.
+
+## Implementing inheritance
+
+Inheritance in a literal sense means acquiring the properties of a parent by the child, and it means
+the same in the case of OOP too. A new class can inherit the attributes and methods of a parent class
+and it can also have its own properties and methods. The new class that inherits the parent class will
+be called a child class or a subclass while the parent class can also be called a base class.
+
+The general structure of inheritance while defining a child class inheriting from a parent class looks
+as follows:
+    class Parent:
+    '''attributes...'''
+    '''methods...'''
+    class Child(Parent):
+    '''attributes...'''
+    '''methods...'''

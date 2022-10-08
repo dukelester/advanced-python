@@ -68,7 +68,6 @@ class Employee:
         net_pay =  details["salary"] - tax_pay
         details["tax paid"] = tax_pay
         details["net salary"] = net_pay
-
         return details
 
 employee = Employee()
@@ -79,4 +78,4 @@ employee.details = employee.set_emplyoee_details(
 )
 
 print(employee.details)
-print(f"\nEmployee net pay is KES {employee.calculate_net_pay()}")
+print(f"\nEmployee details as follows : \n {employee.calculate_net_pay()}")
