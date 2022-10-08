@@ -45,3 +45,36 @@ by applying the concepts of OOP:
     • Each branch city will have holidays and sales can happen during holiday seasons
     • Each branch (store) can have shelves and products will be placed on shelves
     • Each product can have promotions or offers and promotions influence sales.
+
+Let us look at what a class can look like. We can consider the Branch entity of ABC Megamart. A
+Branch can have an ID and an Address. Address can further be detailed into Street, City,
+State, and Zip code. If we consider Branch as a class, ID, Street, City, State, and Zip
+code would become its attributes. All operations that can be performed by a branch will become
+its methods.
+A branch can sell products, maintain invoices, maintain inventory, and so on.
+
+### A class can be defined as follows
+
+class ClassName:
+'''attributes...'''
+'''methods...'''
+
+class Branch:
+'''attributes...'''
+'''methods...'''
+
+## Object
+
+An `object` can be defined as the instance of the class. If we consider a class itself as a data type,
+then an object can be defined as the variable of a class of type ClassName.
+
+obj_name = ClassName()
+
+## Applying methods
+
+Methods are similar to the user-defined functions we create to perform various operations in a
+program, the difference being methods are defined inside a class and are governed by the rules of the
+class. Methods can be utilized only by calling them using an object instance created for that class.
+User-defined functions, on the other hand, are global and can be called freely anywhere within the
+program. A method can be as simple as printing a statement or can be a highly complex mathematical
+calculation that involves a large number of parameters.
