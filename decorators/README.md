@@ -14,3 +14,14 @@ We will be taking a look at the following main topics:
     • Applying multiple decorators to one function
     • Exploring class decorators
     • Getting to know built-in decorator
+
+## Exploring class decorators
+
+A class decorator is similar to the function decorator that we discussed earlier. Class decorators can
+be used to decorate, modify behavior, or debug a function, similar to a function decorator, which
+adds behavior to a function without actually modifying the function itself. A class decorator can be
+defined as a class by using two of its default or built-in methods: `__init__` and _`_call_`_. Any
+variable initialized as part of the `__init__` function of a class while creating an object instance of
+the class becomes a variable of the class itself. Similarly, the `__call__` function of a class returns
+a function object. If we want to use a class as a decorator, we need to make use of the combination of
+these two built-in methods.
