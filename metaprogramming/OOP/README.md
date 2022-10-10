@@ -94,3 +94,22 @@ as follows:
     class Child(Parent):
     '''attributes...'''
     '''methods...'''
+
+# Extending to multiple inheritance
+
+Python also supports multiple inheritance, where we can import a subclass from more than one base
+class or parent class. In such a scenario, the child class or the subclass inherits all the attributes and
+methods of the base classes. In this example, we will create two base classes, Product and Branch,
+and let the Sales class inherit both these base classes.
+
+We will be implementing the concept of multiple inheritance by inheriting two parent classes, Product
+and Branch, into the child class, Sales.
+
+## Understanding polymorphism
+
+Polymorphism is the concept of the OOP paradigm where we can reuse the name of a function from
+a parent class either by redefining or overriding an existing function or by creating two different
+functions for two different classes with the same name and using them separately.
+
+    • Polymorphism within inheritance
+    • Polymorphism in independent classes

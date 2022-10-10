@@ -92,6 +92,13 @@ class NairobiBranch(Branch):
         sales["final_selling_price"] = final_selling_price
         return branch, intercity_branch, product_, sales
 
+    # Implementing Polymorphisim
+    def calc_tax(self):
+        """ A function overriden from the """
+        branch = self.intercity_branch
+        print(branch)
+        return branch
+
 juja_branch = NairobiBranch()
 juja_branch.branch = juja_branch.set_branch(
     branch_id=67890, branch_name="Juja branch", branch_city="Kiambu",
@@ -118,3 +125,4 @@ print(f"Product Details : {juja_branch.product} \n ")
 print(f" Sales Details : {juja_branch.sales} \n ")
 print(f"\n Finale Sales details : {juja_branch.calculate_nairobi_tax()} \n ")
 print(f"Finale Sales details : {juja_branch.calc_tax()}")
+
