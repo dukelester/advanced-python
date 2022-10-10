@@ -2,8 +2,7 @@
 
 class Brooklyn:
     """ the Brooklyn class, we will calculate the maintenance cost only if the
-    product type is FMCG(Fast Moving Consumer Goods)
-    .
+    product type is FMCG(Fast Moving Consumer Goods).
     """
     def __init__(self, product, quantity):
         self.product = product

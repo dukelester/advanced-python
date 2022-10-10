@@ -113,3 +113,14 @@ functions for two different classes with the same name and using them separately
 
     • Polymorphism within inheritance
     • Polymorphism in independent classes
+
+## Hiding details with abstraction
+
+Abstraction is a concept of OOP that helps in hiding internal details of a class or methods by providing
+a reference class with declarations of classes with empty declarations of methods. These reference classes
+are called abstract base and they are kind of a go-to parent class that holds the skeletal structure of
+all the methods that need to be implemented if a parent class is inherited. Python has a library called
+ABC that can be imported to define abstract base classes. Abstraction is more like giving a black box
+to external users by not revealing all the details of various methods defined inside a class but instead
+giving a reference class that can help the external users to implement the methods according to their
+own requirements.
