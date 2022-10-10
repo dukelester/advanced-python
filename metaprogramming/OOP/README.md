@@ -124,3 +124,23 @@ ABC that can be imported to define abstract base classes. Abstraction is more li
 to external users by not revealing all the details of various methods defined inside a class but instead
 giving a reference class that can help the external users to implement the methods according to their
 own requirements.
+
+# Protecting information with encapsulation
+
+`Encapsulation` is the feature of the OOP paradigm that keeps has information protected. A class
+encapsulates its attributes and methods from being accessed by anyone outside the class. To ensure
+more protection to the variables and methods inside a class, they can further be declared as private
+or protected members. Private methods or variables can only be accessed within the class, whereas
+protected methods or variables can be accessed by subclasses or child classes that inherit the parent
+class or the base class. Private variables or methods are prefixed by the special character __ (double
+underscore) and protected members or variables are prefixed by _ (single underscore). We will look
+at some examples of private and protected class members.
+
+## Private members
+
+In Python, the concept of a private variable does not exist as in other OOP languages. However, we can
+add two underscore symbols before the name of a variable or method to signify that a specific variable
+will be used as a private member within the class. It is done so that the developer can understand the
+naming convention that the program treats the variable as private. Adding two underscores before the
+name of a variable or method prevents name mangling by the Python interpreter to avoid collisions
+with the variable during inheritance, and it is not an actual private member as in other languages.
