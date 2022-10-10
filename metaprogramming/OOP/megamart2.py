@@ -3,9 +3,6 @@ different cities and consists of multiple branches.
 '''
 
 from datetime import datetime
-from itertools import product
-
-
 class Branch:
     """ A class with set methods """
     def __init__(self):
@@ -125,4 +122,3 @@ print(f"Product Details : {juja_branch.product} \n ")
 print(f" Sales Details : {juja_branch.sales} \n ")
 print(f"\n Finale Sales details : {juja_branch.calculate_nairobi_tax()} \n ")
 print(f"Finale Sales details : {juja_branch.calc_tax()}")
-
